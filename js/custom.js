@@ -307,7 +307,7 @@ $(document).ready(function()
 					artist:"",
 					album:"Rock",
 					mp3:"files/Rock.mp3",
-					poster:"images/rock.jpg"
+					poster:"images/featured_5.jpg"
 				},
 			    {
 					title:"Raggae",
@@ -328,7 +328,7 @@ $(document).ready(function()
 					artist:"",
 					album:"Traps",
 					mp3:"files/trap music.mp3",
-					poster:"images/trap.jpg"
+					poster:"images/news_2.jpg"
 				}
 			];
 
