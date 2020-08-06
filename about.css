@@ -118,10 +118,7 @@ p a:hover::after
 	background: rgba(42,194,117,0.9);
 	color: #ffffff;
 }
-p::selection
-{
-	
-}
+
 h1{font-size: 48px;}
 h2{font-size: 36px;}
 h3{font-size: 24px;}
@@ -137,15 +134,7 @@ h1, h2, h3, h4, h5, h6
 	color: #2a2a2a;
 	font-weight: 700;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
-h6::selection
-{
-	
-}
+
 img
 {
 	max-width: 100%;
@@ -241,7 +230,7 @@ section
 .parallax-window
 {
     min-height: 400px;
-    background: transparent;
+	background: transparent;
 }
 .parallax_background
 {
@@ -366,9 +355,9 @@ section
 	left: 0;
 	width: 100%;
 	background-color: #3b125d;
-	background-image: linear-gradient(to right, #2457d7, #3b125d);
+	background-image: linear-gradient(to right,#c1f084, #096e09);
 	background: #3b125d;
-	background: linear-gradient(to right, #c5d724, #3b125d);
+	background: linear-gradient(to right,#c1f084, #096e09);
 	z-index: 100;
 }
 /*Header gradient bottom border*/
@@ -381,9 +370,9 @@ section
 	height: 2px;
 	content: '';
 	background-color: #2ac275;
-	background-image: linear-gradient(to right, #eeff2d, #2ac275);
+	background-image: linear-gradient(to right,#c1f084, #096e09);
 	background: #2ac275;
-	background: linear-gradient(to right, #eeff2d, #2ac275);
+	background: linear-gradient(to right,#c1f084, #096e09);
 }
 .header_content
 {
@@ -642,9 +631,9 @@ section
 	width: 100%;
 	height: 100%;
 	background-color: #3b125d;
-	background-image: linear-gradient(to right, #2457d7, #3b125d);
+	background-image: linear-gradient(to right, #c1f084, #096e09);
 	background: #3b125d;
-	background: linear-gradient(to right, #2457d7, #3b125d);
+	background: linear-gradient(to right, #c1f084, #096e09);
 	opacity: 0.95;
 }
 .menu_close
@@ -717,6 +706,10 @@ section
 .home
 {
 	height: 449px;
+	background-image: url('./About/images/us.jpg');
+	background-position: center center;
+	/* width: 100%; */
+	background-size: cover;
 }
 .home_container
 {
@@ -879,9 +872,9 @@ section
 	padding-top: 42px;
 	padding-bottom: 42px;
 	background-color: #3b125d;
-	background-image: linear-gradient(to right, #2457d7, #3b125d);
+	background-image: linear-gradient(to right,#c1f084, #096e09);
 	background: #3b125d;
-	background: linear-gradient(to right, #a1d724, #3b125d);
+	background: linear-gradient(to right,#c1f084, #096e09);
 }
 .featured_news_image
 {
