@@ -329,7 +329,7 @@ $(document).ready(function()
 					album:"Traps",
 					mp3:"files/trap music.mp3",
 					poster:"images/back2.jpg"
-				}
+				},
 			];
 
 			var options =
